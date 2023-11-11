@@ -1,0 +1,384 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* =====[COL-Device]===== */
+     /* =========[Blog Navbar]========= */
+     .box-bg-banner{
+        height: 350px;
+        margin-bottom: 20px;
+     }
+     .box-bg-banner .b-img{
+        width: 100%;
+        height: 350px;
+     }
+     .box-bg-banner .b-img{
+        padding-left: 35px;
+     }
+     .box-bg-banner .b-img h1{
+        padding-left: 0;
+        font-size: 30px;
+        width: 60%;
+        margin-bottom: 40px;
+     }
+     .container .box-row-1 .box-col-1 .box-img-brand{
+        width: 130px;
+        height: 28px;
+        margin-right: 10px;
+    }
+    .box-col-1 .box-img-brand img{
+        width: 100%;
+        height: 100%;
+    }
+    .container .box-row-1 .box-col-2 .box-product{
+        display: none;
+    }
+    .box-information .product-li{
+        display: none;
+    }
+    .box-container{
+        height: 100px;
+    }
+    .box-col-1{
+        height: 100%;
+        display: flex;
+       align-items: center;
+    }
+    .box-information .product-ul .product-li:nth-child(3){
+        display: block;
+    }
+    .product-li .box-menu-bar{
+        margin-left: 25px;
+        display: block;
+    }
+    /* ====[box-modern-collection .b-row]==== */
+    .box-modern-collection .b-img{
+        display: flex;
+       justify-content: center;
+    }
+    .box-modern-collection .b-img img{
+       width: 100%;
+    }
+    .box-modern-collection .collecton-bg{
+        padding-left: 20px;
+        text-align: center;
+    }
+    .box-modern-collection .collecton-bg h1{
+        font-size: 35px;
+    }
+    .box-modern-collection .collecton-bg p{
+        font-size: 20px;
+    }
+    .box-modern-collection .collecton-bg button{
+        margin-left: 80px;
+        padding: 15px 0;
+    }
+    .box-modern-collection{
+        height: 84rem;
+    }
+    /* <!-- =============[Blog Ads]============ --> */
+    .box-ads{
+        height: 300px;
+    }
+    /* ===========[Blog Sale discounts]============== */
+.box-sale-dis{
+    height: 220px;
+    width: 100%;
+}
+.sale-row .sale-discount .box-text{
+    margin-left: unset;
+    text-align: center;
+    width: 100%;
+    height: 70%;
+}
+.sale-row .sale-discount .box-text h1{
+    font-size: 30px;
+}
+.sale-row .sale-discount .box-text p{
+    font-size: 18px;
+}
+.sale-row .sale-discount .box-text button{
+    padding: 10px 0;
+    width: 130px;
+    border-radius: unset;
+}
+/* ======[Blog Text]======== */
+.blog-text .box-text h1::after{
+    left: 7rem;
+}
+/* ==========[Blog Sale]========== */
+.box-card{
+    margin-bottom: 50px;
+}
+.blog-sale .sale-row .box-card{
+    width: 100%;
+    height: 250px;
+}
+.blog-sale{
+    height: 620px;
+}
+/* ========[Blog Terminal]========= */
+.b-terminal {
+    height: 80%;
+}
+.b-terminal .t-row .b-text h1{
+    font-size: 25px;
+}
+.b-terminal .t-row .b-text h1::after{
+    top: 2.5rem;
+    left: 3rem;
+}
+.b-terminal .t-row .b-text .box-description .box-text .b-des p{
+    font-size: 15px;
+}
+.b-terminal .t-row .b-text .box-description{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+/* ======[Blog Copyright]===== */
+.b-copyright .copy-row .b-text{
+    width: 100%;
+    background-color: #3a3a3a;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* =====[SM-Device]===== */
+     /* =========[Blog Navbar]========= */
+     .container .box-row-1 .box-col-1 .box-img-brand{
+        width: 130px;
+        height: 28px;
+        margin-right: 10px;
+    }
+    .box-col-1 .box-img-brand img{
+        width: 100%;
+        height: 100%;
+    }
+    .container .box-row-1 .box-col-2 .box-product{
+        display: none;
+    }
+    .box-information .product-li{
+        display: none;
+    }
+    .box-container{
+        height: 100px;
+    }
+    .box-col-1{
+        height: 100%;
+        display: flex;
+       align-items: center;
+    }
+    .box-information .product-ul .product-li:nth-child(3){
+        display: block;
+    }
+    .product-li .box-menu-bar{
+        margin-left: 25px;
+        display: block;
+    }
+    /* ========[Blog-bg-banner]========= */
+.box-bg-banner{
+    width: 95%;
+    height: 400px;
+}
+.box-bg-banner .b-img{
+    width: 100%;
+    height: 390px;
+    padding-left: 100px;
+}
+    /* ====[box-modern-collection .b-row]==== */
+    .box-modern-collection .b-img{
+        display: flex;
+       justify-content: center;
+    }
+    .box-modern-collection .b-img img{
+       width: 70%;
+    }
+    .box-modern-collection{
+        height: 84rem;
+    }
+    /* <!-- =============[Blog Ads]============ --> */
+    .box-ads{
+        height: 300px;
+    }
+    /* ===========[Blog Sale discounts]============== */
+.box-sale-dis{
+    height: 220px;
+    width: 100%;
+}
+.sale-row .sale-discount .box-text{
+    margin-left: unset;
+    text-align: center;
+    width: 100%;
+    height: 70%;
+}
+.sale-row .sale-discount .box-text h1{
+    font-size: 30px;
+}
+.sale-row .sale-discount .box-text p{
+    font-size: 18px;
+}
+.sale-row .sale-discount .box-text button{
+    padding: 10px 0;
+    width: 130px;
+    border-radius: unset;
+}
+/* ======[Blog Text]======== */
+.blog-text .box-text h1::after{
+    left: 6.5rem;
+}
+/* ==========[Blog Sale]========== */
+.blog-sale{
+    height: 720px;
+}
+/* ========[Blog Terminal]========= */
+.b-terminal {
+    height: 80%;
+}
+.b-terminal .t-row .b-text h1{
+    font-size: 25px;
+}
+
+.b-terminal .t-row .b-text h1::after{
+    top: 2.5rem;
+    left: 3rem;
+}
+.b-terminal .t-row .b-text .box-description .box-text .b-des p{
+    font-size: 15px;
+}
+.b-terminal .t-row .b-text .box-description{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* =====[MD-Device]===== */
+    /* =========[Blog Navbar]========= */
+    .container .box-row-1 .box-col-1 .box-img-brand{
+        width: 130px;
+        height: 28px;
+        margin-right: 10px;
+    }
+    .box-col-1 .box-img-brand img{
+        width: 100%;
+        height: 100%;
+    }
+    .box-product .product-ul{
+        display: flex;
+        gap: 10px;
+    }
+    .box-information .product-li{
+        display: none;
+    }
+    .box-information .product-ul .product-li:nth-child(3){
+        display: block;
+    }
+    .product-li .box-menu-bar{
+        margin-left: 25px;
+        display: block;
+    }
+    /* ==========[box-modern-collection]========= */
+.box-modern-collection .collecton-bg{
+    height: 200px;
+}
+.box-modern-collection .b-img{
+    height: 200px;
+}
+.box-modern-collection .collecton-bg{
+    padding-left: 3rem;
+}
+.collecton-bg h1{
+    font-size: 35px;
+}
+.collecton-bg button{
+    width: 180px;
+    padding: 10px 0;
+}
+/* =========[Blog Ads]=========== */
+.box-ads-icon{
+    height: 100px;
+}
+.box-modern-collection{
+    height: 27rem;
+}
+/* ===========[Blog Sale discounts]============== */
+.box-sale-dis{
+    height: 250px;
+}
+.sale-row .sale-discount .box-text{
+    margin-left: 100px;
+}
+.sale-row .sale-discount .box-text button{
+    padding: 13px 0;
+    width: 150px;
+    border-radius: unset;
+}
+    /* ======[Blog Text]======== */
+.blog-text .box-text h1::after{
+    left: 8rem;
+}
+/* ==========[Blog Sale]========== */
+.blog-sale{
+    height: 300px;
+}
+.blog-sale .sale-row .box-card{
+    width: 100%;
+    height: 250px;
+}
+  
+/* ========[Blog Terminal]========= */
+.b-terminal {
+    height: 80%;
+}
+.b-terminal .t-row .b-text h1{
+    font-size: 25px;
+}
+
+.b-terminal .t-row .b-text h1::after{
+    top: 2.5rem;
+    left: 3rem;
+}
+.b-terminal .t-row .b-text .box-description .box-text .b-des p{
+    font-size: 18px;
+}
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* =====[LG-Device]===== */ 
+
+    /* =========[Blog Navbar]========= */
+    
+
+    
+/* ==========[box-modern-collection]========= */
+
+.box-modern-collection .collecton-bg{
+    height: 270px;
+}
+.box-modern-collection .b-img{
+    height: 270px;
+}
+/* =========[Blog Ads]=========== */
+.box-ads-icon{
+    height: 100px;
+}
+/* ==========[box-modern-collection]========= */
+.box-modern-collection{
+    height: 580px;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* =====[XL-Device]===== */
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }

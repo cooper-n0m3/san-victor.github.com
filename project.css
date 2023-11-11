@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Quicksand:wght@300&family=Roboto&family=Roboto+Slab&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+::selection{
+    color: #ffffff;
+    background-color: #78909c;
+}
+:root{
+    --gray: #78909c;
+}
+.container{
+    width: 95%;
+    height: 100px;
+    padding: 0;
+}
+.container .box-row-1{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+}
+.container .box-row-1 .box-col-1 .box-img-brand{
+    width: 100%;
+}
+.container .box-row-1 .box-col-2 .box-product{
+    width: 100%;
+    height: 100px;
+    padding-left: 20px;
+}
+.box-product .product-ul{
+    display: flex;
+    gap: 20px;
+}
+.box-product .product-a{
+    font-size: 15px;
+    color: #000000;
+    opacity: .9;
+}
+.container .box-row-1 .box-col-3 .box-information{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+}
+.box-information ul{
+    display: flex;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.box-information .product-a{
+    color: #000000;
+    opacity: .9;
+    display: flex;
+    gap: 10px;
+}
+.box-information .product-a i{
+    margin-top: 5px;
+    font-size: 18px;
+}
+.box-information .product-a p{
+    font-weight: bold;
+    color: var(--gray);
+}
+.box-menu-bar{
+    display: none;
+}
+/* ========[Blog-bg-banner]========= */
+.box-bg-banner{
+    width: 95%;
+    height: 500px;
+}
+.box-bg-banner .b-img{
+    width: 100%;
+    height: 500px;
+    background-image: url(img/Sofa-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 120px;
+}
+.box-bg-banner .b-img h1{
+    font-size: 60px;
+    font-weight: bold;
+    width: 400px;
+    color: #78909c;
+    margin-bottom: 50px;
+}
+
+.box-bg-banner .b-img button{
+    border-radius: unset;
+    border: 2px solid #78909c;
+    width: 180px;
+    padding: 13px 0;
+}
+/* ==========[box-modern-collection]========= */
+.box-modern-collection{
+    padding: 0;
+    width: 95%;
+    height: 675px;
+    display: flex;
+    flex-direction: column;
+}
+.box-modern-collection .b-row{
+    width: 100%;
+    
+}
+.box-modern-collection .b-img{
+    width: 100%;
+    height: 320px;
+    
+}
+.box-modern-collection .b-img img{
+    width: 100%;
+    height: 100%;
+}
+.box-modern-collection .collecton-bg{
+    width: 100%;
+    height: 320px;
+    background-image: url(img/bg-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 7rem;
+    font-weight: bold;
+}
+.collecton-bg h1{
+    color: var(--gray);
+    font-size: 45px;
+}
+.collecton-bg p{
+    color: var(--gray);
+    margin-bottom: 30px;
+}
+.collecton-bg button{
+    width: 200px;
+    border-radius: unset;
+    border: 2px solid var(--gray);
+    padding: 12px 0;
+    text-align: center bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.b-row{
+    padding: 0 5px;
+}
+/* =========[box-ads-icon]========== */
+.box-ads{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.box-ads .box-row-ads{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box-icon-ads{
+    width: 90%;
+    height: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+}
+.box-icon .b-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* ===========[Blog Sale discounts]============== */
+.box-sale-dis{
+    width: 100%;
+    height: 300px;
+    background-color: #78909c67;
+}
+.box-sale-dis .sale-row{
+    width: 100%;
+    height: 100%;
+}
+.box-sale-dis .sale-row .sale-discount{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/sale-highlight-bg-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+.sale-row .sale-discount .box-text{
+    width: 50%;
+    height: 50%;
+    margin-left: 150px;
+}
+.sale-row .sale-discount .box-text h1{
+    font-size: 40px;
+    color: #A71052;
+}
+.sale-row .sale-discount .box-text p{
+    color: #78909c;
+    font-size: 30px;
+}
+.sale-row .sale-discount .box-text button{
+    padding: 13px 0;
+    width: 200px;
+    border-radius: unset;
+    border: 2px solid #78909c;
+}
+/* ======[Blog Text]======== */
+.blog-text{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.blog-text .box-text h1{
+    position: relative;
+    color: var(--gray);
+}
+.blog-text .box-text h1::after{
+    content: '';
+    width: 20%;
+    height: 2px;
+    background-color: #78909c;
+    position: absolute;
+    top: 4.5rem;
+    left: 9rem;
+}
+/* ==========[Blog Sale]========== */
+.blog-sale{
+    width: 100%;
+    height: 360px;
+}
+.blog-sale .sale-row{
+    width: 100%;
+    height: 100%;
+}
+.blog-sale .sale-row .box-card{
+    width: 100%;
+    height: 330px;
+}
+.blog-sale .sale-row .box-card .b-img{
+    width: 100%;
+    height: 75%;
+    position: relative;
+}
+.blog-sale .sale-row .box-card .b-img img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.blog-sale .sale-row .box-card .b-des{
+    width: 100%;
+    height: 25%;
+    padding: 8px 10px;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+.blog-sale .sale-row .box-card .b-des .box-title a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #636262;
+}
+.blog-sale .sale-row .box-card .b-des .box-title p:nth-child(1){
+    margin-top: 0;
+    font-size: 13px;
+    opacity: 0.5;
+}
+.blog-sale .sale-row .box-card .b-des .box-title p:nth-child(2){
+    font-size: 17px;
+    color: #ff0000;
+}
+/* ========[Blog Terminal]========= */
+.b-terminal{
+    margin-top: 5rem;
+    width: 100%;
+    height: 400px;
+}
+.b-terminal .t-row{
+    width: 100%;
+    height: 100%;
+}
+/* ========[Blog Terminal]========= */
+.b-terminal .t-row .b-text{
+    background-color: var(--gray);
+    background-image: url(img/terminal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.b-terminal .t-row .b-text h1{
+    font-size: 35px;
+    position: relative;
+    color: #ffffff;
+}
+.b-terminal .t-row .b-text h1::after{
+    content: '';
+    width: 35%;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 4rem;
+    left: 4.8rem;
+}
+.b-terminal .t-row .b-text .box-description{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.b-terminal .t-row .b-text .box-description .box-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+.b-terminal .t-row .b-text .box-description .box-text .b-des p{
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.b-terminal .t-row .b-text .box-description .box-text .b-profile{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.b-terminal .t-row .b-text .box-description .box-text .b-profile .b-img{
+    width: 70px;
+    height: 70px;
+}
+.box-text .b-profile .b-img img{
+    width: 100%;
+    height: 100%;
+}
+.box-text .b-profile .pf-name p{
+    color: #ffffff;
+}
+/* ========[Blog Social]========= */
+.b-social{
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+    background-image: url(img/footer-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+
+}
+.b-social .social-row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.b-social .social-row .box-social{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 35px;
+}
+.b-social .social-row .box-social i{
+    color: #ffffff;
+}
+.b-social .social-row .box-social i:hover{
+    color: #000000;
+}
+/* =====[Blog Link]====== */
+.b-link{
+    margin-top: 60px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b-link .link-row{
+    width: 85%;
+}
+.b-link .link-row .link-col .link-p{
+    width: 100%;
+    height: 100%;
+}
+.b-link .link-row .link-col .link-p h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.b-link .link-row .link-col .link-p ul{
+    padding: 0;
+    list-style: none;
+}
+.b-link .link-row .link-col .link-p ul li{
+    margin-bottom: 5px;
+}
+.b-link .link-row .link-col .link-p ul li a{
+    text-decoration: none;
+    color: var(--gray);
+    opacity: 0.8;
+    font-size: 16px;
+    
+}
+.b-link .link-row .link-col .link-p button{
+    border-radius: unset;
+    padding: 10px 0;
+    width: 80%;
+    border: 2px solid var(--gray);
+}
+/* ======[Blog Copyright]===== */
+.b-copyright{
+    margin-top: 80px;
+    width: 100%;
+    height: 100px;
+}
+.b-copyright .copy-row{
+    width: 100%;
+    height: 100%;
+    background-color: #3a3a3a;
+
+}
+.b-copyright .copy-row .b-text{
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #000000; */
+}
+.b-copyright .copy-row .b-text p{
+    /* font-weight: bold; */
+    color: #ffffff;
+}
